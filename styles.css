@@ -20,11 +20,11 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 14px;
-    font-family: "Courier";
-    background-color: #b2beb5;
-    margin-left: 11%;
-    margin-right: 11%;
+    font-size: 18px;
+    font-family: "Lucida Console";
+    background-color: #FFFEF2;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 
 .container {
@@ -52,8 +52,10 @@ p{
   text-align: justify;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 9px;
+  margin-bottom:9px;
 }
 
 .flexbox-container{
@@ -79,8 +81,8 @@ figcaption {
 img {
   width: 95%;
   max-width: 1000px;
-  margin-left: 1px;
-  margin-right: 1px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 .center {
@@ -90,24 +92,6 @@ img {
   width: 95%;
 }
 
-
-section img {
-  width: 20%;
-  max-width: 1000px;
-  border: 2px #ffffff solid;
-}
-
-section{
-  display: flex;
-  background-color: #DBD5B5;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-section p{
-  max-width: 1000px;
-}
 
 /* .contentbox {
   margin-left: 20%;

@@ -27,6 +27,13 @@ html, body {
     margin-right: 14%;
 }
 
+/* h4 {
+  font-size:12px;
+  font-style:italic;
+  font-align:center;
+  font-family:"Lucida Console";
+} */
+
 .container {
     width: 100%;
     padding: 10px;
@@ -45,8 +52,13 @@ html, body {
 
 h1 {
 text-align: center;
-
 }
+
+h4 {
+  font-size: 12px;
+  text-align: center;
+}
+
 p{
   color: black;
   text-align: justify;
